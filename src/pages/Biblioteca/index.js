@@ -208,7 +208,7 @@ function Biblioteca() {
                             fill="true"
                             color="font"
                             round="true"
-                            onClick={() => handleDelete(item.id)}
+                            onClick={() => handleDelete(item)}
                             id={`id_button_delete_${item.id}`}
                           >
                             <FiTrash2 />
